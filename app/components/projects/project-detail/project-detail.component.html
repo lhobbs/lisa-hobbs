@@ -1,0 +1,13 @@
+<div class="col-md-10 col-md-offset-1" *ngIf="project">
+	<h2 class="text-center">{{project.name}}</h2>
+	<!--<div class="text-center"><span class="categories" *ngFor="let category of project.categories; let last = last">{{ category.description }}<span *ngIf="!last">, </span></span></div>-->
+	<p>{{project.descriptionLong}}</p>
+	<div class="col-md-8">
+	<img class="project-poster" [src]="project.images.poster" *ngIf="project.images.poster">
+	</div>
+	<div class="col-md-4">
+	<p *ngFor="let link of project.links">
+		<a [href]="link.url" target="_blank">{{link.description}}</a>
+	</p> 
+	</div>
+</div>

@@ -1,0 +1,40 @@
+<html ng-app="MySite">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <!-- Enter a brief description of your page -->
+    <meta name="description" content="My Resume Page">
+
+    <!-- Define a viewport to mobile devices to use - telling the browser to assume that the page is as wide as the device (width=device-width) and setting the initial page zoom level to be 1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <!-- Angular JS -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.5/angular-route.js"></script>-->
+    <!-- Include the site stylesheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <!-- 1. Load libraries -->
+	     <!-- Polyfill(s) for older browsers -->
+	    <script src="node_modules/core-js/client/shim.min.js"></script>
+	    <script src="node_modules/zone.js/dist/zone.js"></script>
+	    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+	    <script src="node_modules/systemjs/dist/system.src.js"></script>
+	    <!-- 2. Configure SystemJS -->
+	    <script src="systemjs.config.js"></script>
+	    <script>
+	      System.import('app').catch(function(err){ console.error(err); });
+	    </script>
+</head>
+<body >
+    <my-app>Loading...</my-app>    
+</body>
+</html>

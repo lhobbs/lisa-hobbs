@@ -1,0 +1,37 @@
+<div id="projects"  *ngIf="projects">
+    <div class="section-header">
+        <h1>Things I've Made</h1>
+    </div>
+    <div id="snowflake" class="row">
+        <div class="col-sm-8 page-content">
+            <project-detail [project]="projects[3]"></project-detail>
+        </div>
+        <div class="col-sm-4 page-label">
+            <h1>Snowflake Android Lockscreen</h1>
+            <div class="text-center">
+                <span class="categories" *ngFor="let category of projects[3].categories; let last = last">{{ category.description }}<span *ngIf="!last">, </span></span>
+            </div>
+        </div>
+    </div>
+    <div id="playBoard" class="row">
+        <div class="col-sm-4 page-label">
+            <h1>Lisa's Play Board</h1>
+            <div class="text-center">
+                <span class="categories" *ngFor="let category of projects[2].categories; let last = last">{{ category.description }}<span *ngIf="!last">, </span></span>
+            </div>
+        </div>
+        <div class="col-sm-8 page-content">
+            <project-detail [project]="projects[2]"></project-detail>
+        </div>
+        
+    </div>
+</div>
+<!--
+<div class="col-sm-9" *ngIf="projects">
+            <div *ngFor="let project of projects.reverse()">
+                <project-detail  class="col-sm-4" [project]="project"></project-detail>
+            </div>
+        </div>-->
+        <!--<div class="col-sm-3" *ngIf="categories">
+            <project-categories [categories]="categories" [activeCategory]="activeCategory" (changeEvent)="changeCategory($event)"></project-categories>
+        </div>-->

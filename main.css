@@ -1,0 +1,317 @@
+﻿
+body
+{
+}
+#homePage {
+    background: url("/images/background3b.jpg") center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#mainTitle {
+    font-family: 'Sofia';
+    color: #FCFFB9;
+    font-size: 100pt;
+    padding-top: 20px;
+    text-shadow: 2px 2px #CC4727;
+}
+#secondaryTitle {
+    color: #95B0C6;
+    text-shadow: 2px 2px #000;
+}
+#bibleVerse  {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    text-align: center;
+}
+#bibleVerse #verse {
+    font-family: 'Sofia';
+}
+.nav.navbar-nav li a {
+    color: #FFF;
+    text-shadow: 1px 1px #050C1F;
+    font-weight: bold;
+    border-right: 1px solid #FCFFB9;
+}
+.nav.navbar-nav li:last-child a {
+    border-right: none;
+}
+#photoMenu {
+    height: 100%;
+    width: 100%;
+}
+.menu-item {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.menu-item:hover {
+    opacity: 1;
+}
+#aboutMenu {
+    background: url("/images/oregoncoastT.jpg") center;   
+}
+#aboutMenu:hover {
+    background: url("/images/oregoncoast.jpg") center;   
+}
+#aboutMenu h1 {
+    color: #FFF;
+    padding-top: 175%;
+    text-align: center;
+}
+
+#projectsMenu {
+    background: url("/images/wpT.jpg") center;
+    height: 100%;
+}
+#projectsMenu:hover {
+    background: url("/images/wp.jpg") center;
+    height: 100%;
+}
+#projectsMenu h1 {
+    text-align: center;
+    padding-top: 85%;   
+    color: #172E3C;
+}
+#resumeMenu {
+    background: url("/images/croatiaT.jpg") center;
+    /*background-size: cover;*/
+}
+#resumeMenu:hover {
+    background: url("/images/croatia.jpg") center;
+    /*background-size: cover;*/
+}
+#resumeMenu h1 {
+    text-align: center;
+    color: #764235;
+    padding-top: 20%;
+}
+#contactMenu {
+    background: url("/images/costaricaT.jpg") center;
+}
+#contactMenu:hover {
+    background: url("/images/costarica.jpg") center;
+}
+#contactMenu h1 {
+    text-align: center;
+    padding-top: 150%;
+    color: #FFF;
+    text-shadow: 1px 1px #333;
+}
+.page-label {
+    height: 100%;
+}
+.page-label h1 {
+    padding-top: 50%;
+    color: white;
+    
+}
+.page-content {
+    height: 100%;
+    padding-top: 100px;
+}
+.section-header h1 {
+    color: #FFF;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+#aboutPage {
+    height: 100%;
+}
+#aboutPage .page-label {   
+    background-color: #050C1F;
+    color: white;
+}
+#aboutPage .page-content {
+    padding-top: 100px;
+}
+#projects .section-header {
+    height: 50%;
+    background-color: #A66059;
+}
+
+#projects .page-label {
+    background-color: #A66059;
+}
+#projects #playBoard .page-content{
+    padding-top: 75px;
+}
+#projects {
+    /*height: 200%;*/
+}
+#workExperience {
+    /*height: 400%;*/
+}
+#workExperience .page-label {   
+    background-color: #657C8B;
+    height: 100%;
+}
+#workExperience .page-content {
+        padding-top: 150px;
+}
+#workExperience .section-header {
+    background-color: #657C8B;
+    height: 50%;
+}
+#school {
+    height: 100%;
+}
+#school .page-label {
+    background-color: #657C8B;
+    height: 100%;
+}
+#school .page-content {
+    height: 100%;
+    padding-top: 150px;
+}
+#community {
+    height: 100%;
+}
+#community .page-label {
+    background-color: #CC7350;
+}
+#community .page-content {
+    padding-top: 75px;
+}
+#contact .page-label {
+    background-color: #B67763;
+}
+#contact .page-content {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.homePagePhoto2{
+    margin-top: -25px;
+    background: url("/images/background2.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.shadedBox {
+    color: #FFF;
+    background-color:rgba(0,0,0,.5);
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+#banner {
+    background-image: url('images/banner.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+nav#stickyHeader {
+    margin: 0;
+}
+#navTitle {
+    color: #FFF;
+}
+#header, .header {
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+    margin-bottom: 25px;
+}
+.header#contact {
+    background-image: url('images/flowers2.png');
+    
+    max-height: 300px;
+    background-repeat: no-repeat;
+}
+#header h1 {
+    padding-top: 70px;
+    color: #FFF;
+}
+.navbar-inverse {
+    border: none;
+    width: 100%;
+}
+.grey-card {
+    background-color: #555;
+}
+.grey-card a {
+    color: #FFF;
+}
+.btn-black {
+    background-color: #000;
+    margin-bottom: 15px;
+}
+a.btn-black {
+    color: #FFF;
+}
+.sort-menu .card {
+  text-align: left; 
+  background: #222;
+}
+.sort-menu h2 {
+  color: #12a9d5;
+  display: inline-block;
+  margin-bottom: 0.9375em;
+  text-transform: uppercase; }
+
+.sort-menu-item {
+  border-bottom: 1px solid #171b1f;
+  color: #999;
+  cursor: pointer;
+  display: block;
+  font-style: italic;
+  padding: 0.75em; }
+  .sort-menu-item:last-child {
+    margin-bottom: 0;
+    border-bottom: none; }
+  .sort-menu-item:hover, .sort-menu-item:focus, .sort-menu-item:active {
+    background: #2d343c;
+    color: #0F6A85; }
+  .sort-menu-item.active {
+    background: #2d343c;
+    color: #0F6A85; }
+ .sort-menu {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%; 
+}
+.categories {
+    font-style: italic;
+    color: #999;
+}
+
+project-card .card {
+    min-height: 400px;
+}
+.project-footer {
+    margin-top: 50px;
+}
+.project-poster {
+        padding: 15px;
+        height: 300px;
+        /*width: 100%;*/
+}
+.about-photos img {
+    max-width: 80%;
+    max-height: 100px;
+}
