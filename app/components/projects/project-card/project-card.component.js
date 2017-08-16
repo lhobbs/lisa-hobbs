@@ -9,10 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+require('rxjs/add/operator/toPromise');
 var project_1 = require('./../../../models/project');
 var ProjectCardComponent = (function () {
     function ProjectCardComponent() {
+        // this.configService.setTitle("Things I've Made");
     }
+    ProjectCardComponent.prototype.ngOnInit = function () {
+        //  this.projectService.getProjects().then(projects =>{ this.projects = projects; });
+    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', project_1.Project)

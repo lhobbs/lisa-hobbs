@@ -33,7 +33,7 @@ var ProjectsComponent = (function () {
         core_1.Component({
             selector: 'projects',
             templateUrl: 'app/components/projects/projects.component.html',
-            providers: [project_service_1.ProjectService]
+            providers: [project_service_1.ProjectService],
         }), 
         __metadata('design:paramtypes', [http_1.Http, config_service_1.ConfigService, project_service_1.ProjectService])
     ], ProjectsComponent);

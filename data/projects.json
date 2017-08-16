@@ -40,7 +40,7 @@
     "descriptionShort": "Lisa’s Play Board is a platform to be used for children’s games that promote growth in cognitive and motor skills. ",
     "descriptionLong": "Lisa’s Play Board is a platform to be used for children’s games that promote growth in cognitive and motor skills. The bases of this interactive game board are the hardware pieces that consist of four quadrants that can be used for different games. The quadrants respond based on pressure, so the games need a physical piece such as tangible objects or force exerted by players stepping or pressing on each quadrant. Having to press, step or jump on the board allows more physical activity to occur during play which can help with motor development. The responsiveness of the board with the software games allow the child to have immediate feedback of what they are doing which can help with different cognitive tasks involved in games.",
     "images":  {
-        "icon": "/images/playboard.jpg",
+        "icon": "/images/playboard_small.jpg",
         "poster": "/images/lisaplayboard.jpg"
       }
       ,
@@ -67,7 +67,7 @@
     "descriptionShort": "Lockscreen for Android device that opens with a swipe of a snowflake.",
     "descriptionLong": "This lockscreen has a blue snowflake that can be dragged down to open the phone to the home screen.  There are other snowflakes that can be tapped to launch other applications.  The yellow snowflake opens Snapchat, the orange snowflake opens Messages and the grey snowflake opens the camera.  I am planning on extending this widget to show notifications and be more customizeable.",
     "images": {
-        "icon": "/images/snowflakelockscreen_small.PNG",
+        "icon": "/images/lockscreen_diagram.jpg",
         "poster": "/images/snowflakelockscreen.jpg"
       },
     "links": [
@@ -77,5 +77,22 @@
       }
       ],
     "categories": [{ "description": "Android"}]
+  },
+  {
+    "id": 4,
+    "title": "yaf-app",
+    "name": "Young Adult Fellowship App",
+    "descriptionShort": "React Native app to keep people in my bible study connected",
+    "descriptionLong": "",
+    "images": {
+        "icon": "/images/yaf_screenshots.jpg"
+      },
+    "links": [
+      {
+        "description": "Source Code",
+        "url": "https://github.com/lhobbs/yaf-app"
+      }
+      ],
+    "categories": [{ "description" : "React Native"}, { "description" : "Mobile"}, { "description": "Android"}]
   }
 ]

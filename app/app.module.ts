@@ -20,7 +20,7 @@ import { AboutComponent }   from './components/about/about.component';
 import { ProjectsComponent }   from './components/projects/projects.component';
 import { ResumeComponent }   from './components/resume/resume.component';
 import { ContactComponent }   from './components/contact/contact.component';
-// import { ProjectCardComponent } from './components/projects/project-card/project-card.component';
+import { ProjectCardComponent } from './components/projects/project-card/project-card.component';
 import { ProjectDetailComponent } from './components/projects/project-detail/project-detail.component';
 // import { ProjectCategoryComponent } from './components/projects/project-category/project-category.component';
 
@@ -41,7 +41,8 @@ import { ProjectDetailComponent } from './components/projects/project-detail/pro
     ProjectsComponent,
     ResumeComponent,
     ContactComponent,
-    ProjectDetailComponent
+    ProjectDetailComponent,
+    ProjectCardComponent
   ],
   providers: [ ConfigService ],
   bootstrap: [ AppComponent ]

@@ -25,7 +25,7 @@ var about_component_1 = require('./components/about/about.component');
 var projects_component_1 = require('./components/projects/projects.component');
 var resume_component_1 = require('./components/resume/resume.component');
 var contact_component_1 = require('./components/contact/contact.component');
-// import { ProjectCardComponent } from './components/projects/project-card/project-card.component';
+var project_card_component_1 = require('./components/projects/project-card/project-card.component');
 var project_detail_component_1 = require('./components/projects/project-detail/project-detail.component');
 // import { ProjectCategoryComponent } from './components/projects/project-category/project-category.component';
 var AppModule = (function () {
@@ -46,7 +46,8 @@ var AppModule = (function () {
                 projects_component_1.ProjectsComponent,
                 resume_component_1.ResumeComponent,
                 contact_component_1.ContactComponent,
-                project_detail_component_1.ProjectDetailComponent
+                project_detail_component_1.ProjectDetailComponent,
+                project_card_component_1.ProjectCardComponent
             ],
             providers: [config_service_1.ConfigService],
             bootstrap: [app_component_1.AppComponent]

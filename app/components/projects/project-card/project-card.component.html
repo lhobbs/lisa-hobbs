@@ -1,0 +1,11 @@
+<div class="card">
+  <img class="card-img-top" [src]="project.images.icon" alt="{{project.title}}" width="100%">
+  <div class="card-block">
+    <h4 class="card-title">{{project.name}}</h4>
+    <span class="proj-category" *ngFor="let cat of project.categories; let last = last">
+        {{cat.description}}<span *ngIf="!last">, </span>
+    </span>
+    <p class="card-text">{{project.descriptionShort}}</p>
+    <a href="#" class="btn btn-primary-outline">More Info</a>
+  </div>
+</div>

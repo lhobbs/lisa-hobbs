@@ -3,7 +3,7 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 import { Observable } from 'rxjs/Observable';
 
-// import { ProjectCardComponent } from './project-card/project-card.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
 // import { ProjectCategoryComponent } from './project-category/project-category.component';
 // import { ProjectCategoryItemComponent } from './project-category-item/project-category-item.component';
 //import { ProjectDetailComponent } from './project-detail/project-detail.component';
@@ -17,7 +17,8 @@ import { ProjectService } from './../../services/project.service';
 @Component({
   selector: 'projects',
   templateUrl: 'app/components/projects/projects.component.html', 
-  providers: [ProjectService]
+  providers: [ProjectService],
+  // declarations: [ProjectCardComponent]
 })
 export class ProjectsComponent  { 
 projects: Project[];

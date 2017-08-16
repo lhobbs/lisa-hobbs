@@ -2,7 +2,12 @@
     <div class="section-header">
         <h1>Things I've Made</h1>
     </div>
-    <div id="snowflake" class="row">
+    <div class="container-fluid cards">
+        <div *ngFor="let project of projects.reverse()">
+            <project-card  class="col-sm-4" [project]="project"></project-card>
+        </div>
+    </div>
+    <!-- <div id="snowflake" class="row">
         <div class="col-sm-8 page-content">
             <project-detail [project]="projects[3]"></project-detail>
         </div>
@@ -24,7 +29,7 @@
             <project-detail [project]="projects[2]"></project-detail>
         </div>
         
-    </div>
+    </div> -->
 </div>
 <!--
 <div class="col-sm-9" *ngIf="projects">
