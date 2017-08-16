@@ -46,11 +46,11 @@ body
 }
 .menu-item {
     height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+     -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important; 
+    background-repeat: no-repeat;
 }
 .menu-item:hover {
     opacity: 1;
@@ -137,8 +137,18 @@ body
 #projects .section-header {
     height: 50%;
     background-color: #A66059;
+} 
+#projects .section-header-2 {
+    border-top: 3px solid #A66059;
+    border-bottom: 3px solid #A66059;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #A66059;
+    text-align: center;
 }
-
 #projects .page-label {
     background-color: #A66059;
 }
