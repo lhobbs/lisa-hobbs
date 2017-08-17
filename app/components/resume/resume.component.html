@@ -1,10 +1,15 @@
 <div id="workExperience">
-    <div class="section-header">
+    <div class="section-header-2">
         <h1>Places I've Worked</h1>
     </div>
-    <div id="dps" class="row">
+    <div class="container-fluid cards">
+        <div *ngFor="let job of jobs">
+            <resume-card  class="col-sm-6" [job]="job"></resume-card>
+        </div>
+    </div>
+    <!-- <div id="dps" class="row">
     <div class="page-content col-sm-8">
-        <!--<h3>Denver Public Schools</h3>-->
+        
             
             <h4>Software Developer</h4>
             <ul>
@@ -78,9 +83,7 @@
             </ul>
     </div>
     </div>
-    <!--<div class="col-md-4 page-label">
-        <h1>Work Experience</h1>
-    </div>-->
+
 </div>
  <div id="school" class="row">
     <div class="col-md-8 page-content">
@@ -131,7 +134,7 @@
                 <li>Taught 5th grade science through hands on learning activities</li>
                 <li>Taught elementary classes on neuroscience including classes in Spanish</li>
             </ul>
-    </div>
+    </div> -->
 
 </div>     
         

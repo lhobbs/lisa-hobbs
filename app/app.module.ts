@@ -19,6 +19,7 @@ import { PhotoMenuComponent } from './components/photo-menu/photo-menu.component
 import { AboutComponent }   from './components/about/about.component';
 import { ProjectsComponent }   from './components/projects/projects.component';
 import { ResumeComponent }   from './components/resume/resume.component';
+import { ResumeCardComponent } from './components/resume/resume-card/resume-card.component'
 import { ContactComponent }   from './components/contact/contact.component';
 import { ProjectCardComponent } from './components/projects/project-card/project-card.component';
 import { ProjectDetailComponent } from './components/projects/project-detail/project-detail.component';
@@ -40,6 +41,7 @@ import { ProjectDetailComponent } from './components/projects/project-detail/pro
     AboutComponent,
     ProjectsComponent,
     ResumeComponent,
+    ResumeCardComponent,
     ContactComponent,
     ProjectDetailComponent,
     ProjectCardComponent

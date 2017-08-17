@@ -1,0 +1,34 @@
+<div class="card container-fluid">
+  <div class="col-sm-6 card-header">
+    <h4 class="card-title">{{job.company}}</h4>
+    <p>{{job.location}}</p>
+    <p>{{job.position}}</p>
+    <p>{{job.startDate}} - {{job.endDate}}</p>
+  </div>
+  <div class="col-sm-6 card-body">
+      <div class="col-sm-12">
+        <h5 class="text-center">Skills</h5>
+        <div *ngIf="job.skills.length > 5">
+            <ul class="col-sm-6">
+                <li *ngFor="let skill of job.skills.splice(5)">{{skill}}</li>
+            </ul>
+            <ul class="col-sm-6">
+                <li *ngFor="let skill of job.skills.splice(0,5)">{{skill}}</li>
+            </ul>
+        </div>
+        <div *ngIf="job.skills.length <= 5">
+            <ul>
+                    <li *ngFor="let skill of job.skills">{{skill}}</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-sm-12" *ngIf="job.achievements">
+        <h5 class="text-center">Achievements</h5>
+        <div *ngIf="job.achievements">
+            <ul>
+                <li *ngFor="let achievement of job.achievements">{{achievement}}</li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>

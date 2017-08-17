@@ -1,0 +1,52 @@
+[
+    {
+        "id" : 1,
+        "company" : "Denver Public Schools",
+        "position" : "Software Developer",
+        "location" : "Denver, CO",
+        "startDate" : "June 2018",
+        "endDate" : "Present",
+        "skills" : [
+            "ASP.NET MVC", "C#", "NodeJS", "AngularJS", "React", "Vue", "Hapi", "Knockout", "NiFi", "SQL"
+        ],
+        "achievements" : [
+            "DevDays Champion", "Living Our Values Award"
+        ]
+    },
+    {
+        "id" : 2,
+        "company" : "Clearly Energy",
+        "position" : "Software Developer",
+        "location" : "Remote",
+        "startDate" : "April 2014",
+        "endDate" : "August 2014",
+        "skills" : [
+            "Bootstrap", "JavaScript", "Ruby on Rails"
+        ]
+    },
+    {
+        "id" : 3,
+        "company" : "University of Colorado",
+        "position" : "Discovery Learning Apprentice for Smart Hospital Room project",
+        "location" : "Boulder, CO",
+        "startDate" : "August 2012",
+        "endDate" : "August 2013",
+        "skills" : [
+            "Android"
+        ],
+        "achievements" : [
+            "Co-Author of “A Tablet Based Hands Free Interface in the Standard Hospital Room”", "Presented paper at International Conference for Engineering and Technology (ICET) 2013"
+        ]
+    },
+    {
+        "id" : 4,
+        "company" : "Colorado Department of State",
+        "position" : "IT Intern",
+        "location" : "Denver, CO",
+        "startDate" : "June 2012",
+        "endDate" : "August 2012",
+        "skills" : [
+            "Python", "MySQL", "IP lookups"
+        ]
+    }
+]

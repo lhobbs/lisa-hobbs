@@ -138,16 +138,18 @@ body
     height: 50%;
     background-color: #A66059;
 } 
-#projects .section-header-2 {
-    border-top: 3px solid #A66059;
-    border-bottom: 3px solid #A66059;
+.section-header-2 {
     height: 100px;
     margin-top: 30px;
     margin-bottom: 10px;
     padding-top: 25px;
     padding-bottom: 15px;
-    color: #A66059;
     text-align: center;
+}
+#projects .section-header-2 {
+    border-top: 3px solid #A66059;
+    border-bottom: 3px solid #A66059;
+    color: #A66059;
 }
 #projects .page-label {
     background-color: #A66059;
@@ -171,6 +173,11 @@ body
 #workExperience .section-header {
     background-color: #657C8B;
     height: 50%;
+}
+#workExperience .section-header-2 {
+    border-top: 3px solid #657C8B;
+    border-bottom: 3px solid #657C8B;
+    color: #657C8B;
 }
 #school {
     height: 100%;
@@ -200,10 +207,10 @@ body
 }
 
 
-#projects .cards {
+.cards {
     padding-top: 20px;
 }
-#projects .card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0;
 }
@@ -211,7 +218,17 @@ body
     font-style: italic;
     color: #A66059;
 }
-
+#workExperience .card-header {
+    background-color: #657C8B;
+    color: #FFF;
+    /* height: 100%; */
+}
+#workExperience .card {
+    padding: 0;
+}
+#workExperience .card li {
+    font-size: 12
+}
 
 
 

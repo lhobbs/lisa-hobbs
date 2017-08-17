@@ -24,6 +24,7 @@ var photo_menu_component_1 = require('./components/photo-menu/photo-menu.compone
 var about_component_1 = require('./components/about/about.component');
 var projects_component_1 = require('./components/projects/projects.component');
 var resume_component_1 = require('./components/resume/resume.component');
+var resume_card_component_1 = require('./components/resume/resume-card/resume-card.component');
 var contact_component_1 = require('./components/contact/contact.component');
 var project_card_component_1 = require('./components/projects/project-card/project-card.component');
 var project_detail_component_1 = require('./components/projects/project-detail/project-detail.component');
@@ -45,6 +46,7 @@ var AppModule = (function () {
                 about_component_1.AboutComponent,
                 projects_component_1.ProjectsComponent,
                 resume_component_1.ResumeComponent,
+                resume_card_component_1.ResumeCardComponent,
                 contact_component_1.ContactComponent,
                 project_detail_component_1.ProjectDetailComponent,
                 project_card_component_1.ProjectCardComponent

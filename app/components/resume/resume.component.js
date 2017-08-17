@@ -10,17 +10,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var config_service_1 = require('./../../services/config.service');
+var resume_service_1 = require('./../../services/resume.service');
 var ResumeComponent = (function () {
-    function ResumeComponent(configService) {
+    function ResumeComponent(configService, resumeService) {
         this.configService = configService;
+        this.resumeService = resumeService;
         this.configService.setTitle("Things I've Done");
     }
+    ResumeComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.resumeService.getJobs().then(function (jobs) { _this.jobs = jobs; });
+    };
     ResumeComponent = __decorate([
         core_1.Component({
             selector: 'resume',
             templateUrl: 'app/components/resume/resume.component.html',
+            providers: [resume_service_1.ResumeService],
         }), 
-        __metadata('design:paramtypes', [config_service_1.ConfigService])
+        __metadata('design:paramtypes', [config_service_1.ConfigService, resume_service_1.ResumeService])
     ], ResumeComponent);
     return ResumeComponent;
 }());
