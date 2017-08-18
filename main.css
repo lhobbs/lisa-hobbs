@@ -179,16 +179,26 @@ body
     border-bottom: 3px solid #657C8B;
     color: #657C8B;
 }
-#school {
+#education {
     height: 100%;
 }
-#school .page-label {
-    background-color: #657C8B;
+#education .page-label {
+    background: url("/images/gradcap_bw.jpg") center center;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
 }
-#school .page-content {
+#education .page-content {
     height: 100%;
-    padding-top: 150px;
+     padding-top: 0; 
+}
+#education .section-header-2 {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    color: #000;
+    margin-bottom: 30px;
 }
 #community {
     height: 100%;
@@ -213,6 +223,8 @@ body
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #projects .proj-category {
     font-style: italic;
@@ -225,9 +237,22 @@ body
 }
 #workExperience .card {
     padding: 0;
+    display: flex;
+}
+#workExperience .card ul {
+    padding-left: 20px;
 }
 #workExperience .card li {
     font-size: 12
+}
+#workExperience .card ul.skills {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#workExperience .card button {
+    border: 1px solid #fff;
+    background-color: transparent;
 }
 
 

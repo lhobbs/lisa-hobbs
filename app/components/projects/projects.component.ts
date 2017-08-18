@@ -23,6 +23,9 @@ import { ProjectService } from './../../services/project.service';
 export class ProjectsComponent  { 
 projects: Project[];
 projectsAll: Project[];
+projectsCol1: Project[];
+projectsCol2: Project[];
+projectsCol3: Project[];
 categories: Category[];
 activeCategory: Category;
 showAllCategory: Category;
@@ -33,13 +36,19 @@ constructor(private http: Http, private configService: ConfigService, private pr
 }
 
 ngOnInit () {
-     this.projectService.getProjects().then(projects =>{ this.projects = projects; });
+     this.projectService.getProjects()
+     .then(projects =>{ this.projects = projects.reverse(); })
+     .then(p => this.filterProjs());
      this.projectService.getCategories().then(categories => this.categories = categories);
-    //  this.showAllCategory = new Category();
-    //  this.showAllCategory.description = 'showAll';
-    //  this.activeCategory = this.showAllCategory;
+    
+     
  }
 
+ filterProjs() {
+    this.projectsCol1 = this.projects.filter((v, i) => i%3 == 0);
+     this.projectsCol2 = this.projects.filter((v, i) => i%3 == 1);
+     this.projectsCol3 = this.projects.filter((v, i) => i%3 == 2);
+ }
 //  filterProjects(category: Category) {
 //      if (category.description == 'showAll')
 //         this.projects = this.projectsAll;

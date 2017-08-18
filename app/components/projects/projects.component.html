@@ -3,8 +3,20 @@
         <h1>Things I've Made</h1>
     </div>
     <div class="container-fluid cards">
-        <div *ngFor="let project of projects.reverse()">
-            <project-card  class="col-sm-4" [project]="project"></project-card>
+        <div class="col-sm-4">
+            <div *ngFor="let project of projectsCol1">
+                <project-card [project]="project"></project-card>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div *ngFor="let project of projectsCol2">
+                <project-card [project]="project"></project-card>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div *ngFor="let project of projectsCol3">
+                <project-card [project]="project"></project-card>
+            </div>
         </div>
     </div>
     <!-- <div id="snowflake" class="row">

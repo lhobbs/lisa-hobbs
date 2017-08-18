@@ -4,13 +4,13 @@
         "company" : "Denver Public Schools",
         "position" : "Software Developer",
         "location" : "Denver, CO",
-        "startDate" : "June 2018",
+        "startDate" : "June 2015",
         "endDate" : "Present",
         "skills" : [
             "ASP.NET MVC", "C#", "NodeJS", "AngularJS", "React", "Vue", "Hapi", "Knockout", "NiFi", "SQL"
         ],
         "achievements" : [
-            "DevDays Champion", "Living Our Values Award"
+            "Won DevDays competition 2016", "Living Our Values Award"
         ]
     },
     {
@@ -27,12 +27,12 @@
     {
         "id" : 3,
         "company" : "University of Colorado",
-        "position" : "Discovery Learning Apprentice for Smart Hospital Room project",
+        "position" : "Discovery Learning Apprentice",
         "location" : "Boulder, CO",
         "startDate" : "August 2012",
         "endDate" : "August 2013",
         "skills" : [
-            "Android"
+            "Android", "Java"
         ],
         "achievements" : [
             "Co-Author of “A Tablet Based Hands Free Interface in the Standard Hospital Room”", "Presented paper at International Conference for Engineering and Technology (ICET) 2013"

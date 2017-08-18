@@ -23,11 +23,15 @@ var ProjectsComponent = (function () {
     }
     ProjectsComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.projectService.getProjects().then(function (projects) { _this.projects = projects; });
+        this.projectService.getProjects()
+            .then(function (projects) { _this.projects = projects.reverse(); })
+            .then(function (p) { return _this.filterProjs(); });
         this.projectService.getCategories().then(function (categories) { return _this.categories = categories; });
-        //  this.showAllCategory = new Category();
-        //  this.showAllCategory.description = 'showAll';
-        //  this.activeCategory = this.showAllCategory;
+    };
+    ProjectsComponent.prototype.filterProjs = function () {
+        this.projectsCol1 = this.projects.filter(function (v, i) { return i % 3 == 0; });
+        this.projectsCol2 = this.projects.filter(function (v, i) { return i % 3 == 1; });
+        this.projectsCol3 = this.projects.filter(function (v, i) { return i % 3 == 2; });
     };
     ProjectsComponent = __decorate([
         core_1.Component({

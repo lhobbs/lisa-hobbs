@@ -3,10 +3,18 @@
         <h1>Places I've Worked</h1>
     </div>
     <div class="container-fluid cards">
-        <div *ngFor="let job of jobs">
-            <resume-card  class="col-sm-6" [job]="job"></resume-card>
+        <div class="col-sm-6">
+            <div *ngFor="let job of jobsCol1">
+                <resume-card [job]="job"></resume-card>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div *ngFor="let job of jobsCol2">
+                <resume-card [job]="job"></resume-card>
+            </div>
         </div>
     </div>
+    <education></education>
     <!-- <div id="dps" class="row">
     <div class="page-content col-sm-8">
         

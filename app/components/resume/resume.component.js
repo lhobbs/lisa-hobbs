@@ -19,7 +19,13 @@ var ResumeComponent = (function () {
     }
     ResumeComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.resumeService.getJobs().then(function (jobs) { _this.jobs = jobs; });
+        this.resumeService.getJobs()
+            .then(function (jobs) { _this.jobs = jobs; })
+            .then(function (j) { return _this.filterJobs(); });
+    };
+    ResumeComponent.prototype.filterJobs = function () {
+        this.jobsCol1 = this.jobs.filter(function (v, i) { return i % 2 == 0; });
+        this.jobsCol2 = this.jobs.filter(function (v, i) { return i % 2 == 1; });
     };
     ResumeComponent = __decorate([
         core_1.Component({
