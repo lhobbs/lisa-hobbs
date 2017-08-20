@@ -147,9 +147,9 @@ body
     text-align: center;
 }
 #projects .section-header-2 {
-    border-top: 3px solid #A66059;
-    border-bottom: 3px solid #A66059;
-    color: #A66059;
+    border-top: 3px solid #657C8B;
+    border-bottom: 3px solid #657C8B; /*#A66059;*/
+    color: #657C8B;
 }
 #projects .page-label {
     background-color: #A66059;
@@ -175,9 +175,9 @@ body
     height: 50%;
 }
 #workExperience .section-header-2 {
-    border-top: 3px solid #657C8B;
-    border-bottom: 3px solid #657C8B;
-    color: #657C8B;
+    border-top: 3px solid #936076;
+    border-bottom: 3px solid #936076;
+    color: #936076;
 }
 #education {
     height: 100%;
@@ -203,17 +203,30 @@ body
 #community {
     height: 100%;
 }
+#community .section-header-2 {
+    border-top: 3px solid #F4A441;
+    border-bottom: 3px solid #F4A441;
+    color: #F4A441;
+}
 #community .page-label {
     background-color: #CC7350;
 }
 #community .page-content {
     padding-top: 75px;
 }
+#contact .section-header-2 {
+    border-top: 3px solid #BF6041;
+    border-bottom: 3px solid #BF6041;
+    color: #BF6041;
+}
 #contact .page-label {
     background-color: #B67763;
 }
 #contact .page-content {
     padding-top: 100px;
+}
+#contact .page {
+    /* background-color: #CA9381; */
 }
 
 
@@ -228,22 +241,29 @@ body
 }
 #projects .proj-category {
     font-style: italic;
-    color: #A66059;
+    color: #657C8B;
 }
 #workExperience .card-header {
-    background-color: #657C8B;
+    background-color: #be9fac; /*F28C82#A66059;*/
     color: #FFF;
+    position: relative;
     /* height: 100%; */
 }
+/* #workExperience .btnInfo {
+    
+} */
 #workExperience .card {
     padding: 0;
     display: flex;
+}
+#workExperience .card .list-header {
+    font-size: 14;
 }
 #workExperience .card ul {
     padding-left: 20px;
 }
 #workExperience .card li {
-    font-size: 12
+    font-size: 16;
 }
 #workExperience .card ul.skills {
     columns: 2;
@@ -253,9 +273,58 @@ body
 #workExperience .card button {
     border: 1px solid #fff;
     background-color: transparent;
+     /* bottom: 10px;
+    position: absolute; */
+     margin: auto;  
+}
+#community .card li {
+    font-size: small;
+}
+#community #dpsCard {
+    border: 1px solid #193652;
+    border-bottom: 2px solid #193652;
+}
+#community #sweCard {
+    border: 1px solid #5B5478;
+    border-bottom: 2px solid #5B5478;
+}
+#community #cuCard {
+    border: 1px solid #D1B97D;
+    border-bottom: 2px solid #D1B97D;
+}
+#community #fccCard {
+    border: 1px solid #F7941E;
+    border-bottom: 2px solid #F7941E;
+}
+#contactCard .info {
+    border-left: 1px solid #BF6041;
+    margin-bottom: 5px;
+}
+#contactCard .title {
+    margin-top: 6%;
 }
 
-
+#snapshot1 {
+    margin-top: 50px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
+}
+#snapshot2 {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+.snapshot {
+    /* margin: 50px; */
+     width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.snapshot img {
+     width: 100%;
+    /* height: 50%; */
+    /* margin-left: 50px; */
+}
 
 
 

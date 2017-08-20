@@ -21,6 +21,7 @@ import { ProjectsComponent }   from './components/projects/projects.component';
 import { ResumeComponent }   from './components/resume/resume.component';
 import { ResumeCardComponent } from './components/resume/resume-card/resume-card.component'
 import { EducationComponent } from './components/resume/education/education.component'
+import { CommunityOutreachComponent } from './components/resume/community-outreach/community-outreach.component'
 import { ContactComponent }   from './components/contact/contact.component';
 import { ProjectCardComponent } from './components/projects/project-card/project-card.component';
 import { ProjectDetailComponent } from './components/projects/project-detail/project-detail.component';
@@ -44,6 +45,7 @@ import { ProjectDetailComponent } from './components/projects/project-detail/pro
     ResumeComponent,
     ResumeCardComponent,
     EducationComponent,
+    CommunityOutreachComponent,
     ContactComponent,
     ProjectDetailComponent,
     ProjectCardComponent

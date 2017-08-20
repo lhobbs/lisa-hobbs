@@ -1,25 +1,26 @@
 <div class="card container-fluid">
-  <div class="col-sm-6 card-header">
-    <h3 class="card-title">{{job.company}}</h3>
-    <p>{{job.location}}</p>
-    <h4>{{job.position}}</h4>
-    <p>{{job.startDate}} - {{job.endDate}}</p>
-    <button class="btn">More Info</button>
-  </div>
+
   <div class="col-sm-6 card-body">
       <div class="row">
-        <h5 class="text-center">Skills</h5>
+        <h5 class="text-center list-header">Skills</h5>
         <ul class="skills">
             <li *ngFor="let skill of job.skills">{{skill}}</li>
         </ul>
       </div>
       <div class="row" *ngIf="job.achievements">
-        <h5 class="text-center">Achievements</h5>
+        <h5 class="text-center list-header">Achievements</h5>
         <div *ngIf="job.achievements">
             <ul>
                 <li *ngFor="let achievement of job.achievements">{{achievement}}</li>
             </ul>
         </div>
       </div>
+  </div>
+     <div class="col-sm-6 card-header">
+    <h4 class="card-title">{{job.company}}</h4>
+    <p>{{job.startDate}} - {{job.endDate}}</p>
+    <!-- <p>{{job.location}}</p> -->
+    <h5>{{job.position}}</h5>
+    <!-- <button class="btn infoBtn">More Info</button> -->
   </div>
 </div>

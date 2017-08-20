@@ -6,6 +6,9 @@
         {{cat.description}}<span *ngIf="!last">, </span>
     </span>
     <p class="card-text">{{project.descriptionShort}}</p>
-    <a href="#" class="btn btn-primary-outline">More Info</a>
+    <ul>
+      <li *ngFor="let link of project.links"><a [href]="link.url" target="_blank">{{link.description}}</a></li>
+    </ul>
+    <!-- <a href="#" class="btn btn-primary-outline">More Info</a> -->
   </div>
 </div>

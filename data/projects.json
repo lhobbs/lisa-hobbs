@@ -90,7 +90,7 @@
     "links": [
       {
         "description": "Source Code",
-        "url": "https://github.com/lhobbs/yaf-app"
+        "url": "https://github.com/lhobbs/yaf-app-mobile"
       }
       ],
     "categories": [{ "description" : "React Native"}, { "description" : "Mobile"}, { "description": "Android"}]

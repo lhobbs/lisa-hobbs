@@ -26,6 +26,7 @@ var projects_component_1 = require('./components/projects/projects.component');
 var resume_component_1 = require('./components/resume/resume.component');
 var resume_card_component_1 = require('./components/resume/resume-card/resume-card.component');
 var education_component_1 = require('./components/resume/education/education.component');
+var community_outreach_component_1 = require('./components/resume/community-outreach/community-outreach.component');
 var contact_component_1 = require('./components/contact/contact.component');
 var project_card_component_1 = require('./components/projects/project-card/project-card.component');
 var project_detail_component_1 = require('./components/projects/project-detail/project-detail.component');
@@ -49,6 +50,7 @@ var AppModule = (function () {
                 resume_component_1.ResumeComponent,
                 resume_card_component_1.ResumeCardComponent,
                 education_component_1.EducationComponent,
+                community_outreach_component_1.CommunityOutreachComponent,
                 contact_component_1.ContactComponent,
                 project_detail_component_1.ProjectDetailComponent,
                 project_card_component_1.ProjectCardComponent
