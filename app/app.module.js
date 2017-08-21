@@ -20,6 +20,7 @@ var config_service_1 = require('./services/config.service');
 // import { InMemoryDataService }  from './in-memory-data.service';
 var app_component_1 = require('./components/app/app.component');
 var home_component_1 = require('./components/home/home.component');
+var chat_bot_component_1 = require('./components/chat-bot/chat-bot.component');
 var photo_menu_component_1 = require('./components/photo-menu/photo-menu.component');
 var about_component_1 = require('./components/about/about.component');
 var projects_component_1 = require('./components/projects/projects.component');
@@ -44,6 +45,7 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 home_component_1.HomeComponent,
+                chat_bot_component_1.ChatBotComponent,
                 photo_menu_component_1.PhotoMenuComponent,
                 about_component_1.AboutComponent,
                 projects_component_1.ProjectsComponent,

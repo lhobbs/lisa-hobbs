@@ -31,6 +31,39 @@ body
 #bibleVerse #verse {
     font-family: 'Sofia';
 }
+#chat-bot {
+    padding-top: 150px;
+}
+#chat-bot .chat-msg {
+    background-color: rgba(250,250,250,.75);
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#chat-bot .chat-input {
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+#chat-bot .chat-input button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#chat-bot a.btn {
+    margin: 5px;
+    color: white;
+}
+.btn-orange {
+    background-color: #F4A441;
+}
+.btn-dark-blue {
+    background-color: #050C1F;
+}
+.btn-purple {
+    background-color: #936076;
+}
+.btn-red-orange {
+    background-color: #BF6041;
+}
 .nav.navbar-nav li a {
     color: #FFF;
     text-shadow: 1px 1px #050C1F;

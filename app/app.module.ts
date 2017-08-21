@@ -15,6 +15,7 @@ import { ConfigService } from './services/config.service';
 
 import { AppComponent }         from './components/app/app.component';
 import { HomeComponent }   from './components/home/home.component';
+import { ChatBotComponent } from './components/chat-bot/chat-bot.component';
 import { PhotoMenuComponent } from './components/photo-menu/photo-menu.component'; 
 import { AboutComponent }   from './components/about/about.component';
 import { ProjectsComponent }   from './components/projects/projects.component';
@@ -39,6 +40,7 @@ import { ProjectDetailComponent } from './components/projects/project-detail/pro
   declarations: [
     AppComponent,
     HomeComponent,
+    ChatBotComponent,
     PhotoMenuComponent,
     AboutComponent,
     ProjectsComponent,
