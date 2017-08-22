@@ -11,6 +11,8 @@ import { Project } from './../../../models/project';
 })
 export class ProjectCardComponent  { 
 @Input() project: Project;
+@Output()
+  selected:EventEmitter<string> = new EventEmitter();
 
 constructor() {
     // this.configService.setTitle("Things I've Made");
@@ -20,5 +22,8 @@ ngOnInit () {
     //  this.projectService.getProjects().then(projects =>{ this.projects = projects; });
  }
 
+ onSelect(project) {
+    this.selected.emit(project);
+  }
 
 }

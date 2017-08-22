@@ -12,7 +12,9 @@
         "achievements" : [
             "Won DevDays competition 2016", "Living Our Values Award"
         ],
-        "description": ""
+        "description": ["At DPS, our development team mostly works on web applications.  We work on applications for parents, teachers, principals and other staff.",
+            "One of my projects was to build an application that would help schools get more support when needed.  They could put in a request for an extra nurse or someone to help them develop a better behavior and discipline plan for a student.  Based on their request, the application would notify the right group of skilled service providers (SSP) that could then through the application, accept or decline the request.  Once the SSP had supported the school, both the SSP and requester can provide feedback.  This application was developed based on the Denver Plan 2020 to provide support for the whole child. To build this application, we used Knockout, .NET MVC, C# and SQL.  Some of our projects have a project manager and business analyst to work with our customers and develop requirements.  However, sometimes those resources are not available and we must fill that role ourselves.  This project was an example of a time where we worked directly with our customer. From the beginning of the project we got to hear her vision for this tool.  As we worked on requirements and design we would meet with her to ensure we were on track with what she had envisioned.  This was a great opportunity to see the project from the very beginning through the final execution. ",
+            "The Colorado Department of Education (CDE) requires many data submissions throughout the year.  We submit data on our students for October Count, staff, teacher/student/course information, etc.  I’ve worked on a variety of these submissions to pull the right data and export that data into files that can be submitted to CDE, through SSIS packages.  Recently, I’ve been rebuilding the application that users use to manage the staff submissions.  This application allows users to view and update records, add or remove employees from submission and to export the data.  Teachers or SSPs may work in multiple schools or have multiple assignments within a school.  This means they have multiple records for a portion of the submission.  In order to help users work more efficiently, I added a feature that would find the differences between these assignment records and highlight the different values.  This application is built using Node, Hapi, SQL and React."]
     },
     {
         "id" : 2,
@@ -23,7 +25,9 @@
         "endDate" : "August 2014",
         "skills" : [
             "Bootstrap", "JavaScript", "Ruby on Rails"
-        ]
+        ],
+        "description": ["Clearly Energy was in the process of redoing their website, https://www.clearlyenergy.com/.  They hired a designer to transform the appearance and user experience.  I worked from the designer’s mockups to implement the new look into their Ruby on Rails application. I implemented animations such as the clouds slowly moving by behind the house.",
+        "Clearly Energy was a small startup that was made up of the two co-founders/energy experts, the main developer and the designer. It was exciting to join the small team and work closely with their developer."]
     },
     {
         "id" : 3,
@@ -37,7 +41,9 @@
         ],
         "achievements" : [
             "Co-Author of “A Tablet Based Hands Free Interface in the Standard Hospital Room”", "Presented paper at International Conference for Engineering and Technology (ICET) 2013"
-        ]
+        ],
+        "description": ["CU has a program for undergraduates to participate in research projects.  This program allowed me to work on a fascinating project when I was only a sophomore.  The project I was on was for a Smart Hospital Room.  We were targeting patients that have very limited mobility and are stuck in bed for long periods of time. The goal of the project was to design a hospital room that could be controlled entirely by a tablet.  This meant that the light, tv, bed and nurse call could be controlled through one device.  The physical controls of these devices were often hard for patients to handle due to their illness or injury.  The tablet was an easier alternative to control. I helped set up a model of a hospital room in the lab and met with people at Craig Hospital, a hospital for people with brain and spinal injuries.",
+        "As part of the Discovery Learning Apprenticeship program, we had to design a poster to present at our expo.  I also presented this poster at OurCS, a workshop for women in computing.  I was one of the authors of “A Tablet Based Hands Free Interface in the Standard Hospital Room” and had the opportunity to present this paper at the International Conference for Engineering and Technology (ICET) 2013."]
     },
     {
         "id" : 4,
@@ -48,6 +54,7 @@
         "endDate" : "August 2012",
         "skills" : [
             "Python", "MySQL", "IP lookups"
-        ]
+        ],
+        "description": ["Being an intern in the security department of the Colorado Department of State was an eye-opening experience about how crucial security is. I learned about many of the different security checks and learned how it applies to software as well as networks.  My main project was to build an application that would allow someone to look up information about an IP address.  It pulled up information such as location of the IP address as well as checking it against APIs that would return how trustworthy that IP address might be.  Once the IP address was entered into this application, it would save it so someone could check how often that IP address was hitting the network.  I learned about networking as well as Python and MySQL. "]
     }
 ]

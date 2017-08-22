@@ -14,24 +14,26 @@ require('rxjs/add/operator/toPromise');
 var config_service_1 = require('./../../services/config.service');
 var project_service_1 = require('./../../services/project.service');
 var ProjectsComponent = (function () {
-    //public changeEvent: EventEmitter = new EventEmitter();
     function ProjectsComponent(http, configService, projectService) {
         this.http = http;
         this.configService = configService;
         this.projectService = projectService;
         this.configService.setTitle("Things I've Made");
+        this.selectedProject = null;
     }
     ProjectsComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.projectService.getProjects()
             .then(function (projects) { _this.projects = projects.reverse(); })
             .then(function (p) { return _this.filterProjs(); });
-        this.projectService.getCategories().then(function (categories) { return _this.categories = categories; });
     };
     ProjectsComponent.prototype.filterProjs = function () {
         this.projectsCol1 = this.projects.filter(function (v, i) { return i % 3 == 0; });
         this.projectsCol2 = this.projects.filter(function (v, i) { return i % 3 == 1; });
         this.projectsCol3 = this.projects.filter(function (v, i) { return i % 3 == 2; });
+    };
+    ProjectsComponent.prototype.selectProj = function (proj) {
+        this.selectedProject = proj;
     };
     ProjectsComponent = __decorate([
         core_1.Component({

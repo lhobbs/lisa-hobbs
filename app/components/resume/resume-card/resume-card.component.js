@@ -12,7 +12,12 @@ var core_1 = require('@angular/core');
 var job_1 = require('./../../../models/job');
 var ResumeCardComponent = (function () {
     function ResumeCardComponent() {
+        this.showDescription = false;
     }
+    ResumeCardComponent.prototype.toggleExtra = function () {
+        // console.log(this.showDescription)
+        this.showDescription = !this.showDescription;
+    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', job_1.Job)

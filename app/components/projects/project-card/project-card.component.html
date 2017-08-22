@@ -9,6 +9,6 @@
     <ul>
       <li *ngFor="let link of project.links"><a [href]="link.url" target="_blank">{{link.description}}</a></li>
     </ul>
-    <!-- <a href="#" class="btn btn-primary-outline">More Info</a> -->
+     <a (click)="onSelect(project)" class="btn btn-primary-outline">More Info</a> 
   </div>
 </div>

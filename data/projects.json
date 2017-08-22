@@ -83,9 +83,10 @@
     "title": "yaf-app",
     "name": "Young Adult Fellowship App",
     "descriptionShort": "React Native app to keep people in my bible study connected",
-    "descriptionLong": "",
+    "descriptionLong": "I wanted to get into more mobile development and since I had already used React, I decided to look into React Native.  I coordinate a young adult bible fellowship and something we’ve had a hard time with is keeping everyone connected and getting feedback from people.  Since most of us spend a lot of time on our phones and have adapted to most things being online, I decided that a mobile app might help us stay connected.  This app pulls in events from my Google Calendar and allows people to RSVP with just a push of a button.  This app also contains some social aspects such as providing feedback of which activities we should do or adding a prayer request.  I’ve set up mobile notifications with OneSignal, so I’ll be able to remind people of upcoming events. ",
     "images": {
-        "icon": "/images/yaf_screenshots.jpg"
+        "icon": "/images/yaf_screenshots.jpg",
+        "poster": "/images/yaf_screenshots.jpg"
       },
     "links": [
       {

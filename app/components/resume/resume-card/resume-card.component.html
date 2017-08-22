@@ -1,5 +1,5 @@
-<div class="card container-fluid">
-
+<div class="container-fluid card">
+<div class="card-brief">
   <div class="col-sm-6 card-body">
       <div class="row">
         <h5 class="text-center list-header">Skills</h5>
@@ -21,6 +21,13 @@
     <p>{{job.startDate}} - {{job.endDate}}</p>
     <!-- <p>{{job.location}}</p> -->
     <h5>{{job.position}}</h5>
-    <!-- <button class="btn infoBtn">More Info</button> -->
+     <button class="btn infoBtn" (click)="toggleExtra()">
+         <span *ngIf="!showDescription">More</span>
+         <span *ngIf="showDescription">Less</span>
+          Info</button> 
   </div>
+</div>
+    <div *ngIf="showDescription" class="card-extra">
+        <p *ngFor="let d of job.description">{{d}}</p>
+    </div>
 </div>

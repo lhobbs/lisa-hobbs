@@ -13,15 +13,23 @@ require('rxjs/add/operator/toPromise');
 var project_1 = require('./../../../models/project');
 var ProjectCardComponent = (function () {
     function ProjectCardComponent() {
+        this.selected = new core_1.EventEmitter();
         // this.configService.setTitle("Things I've Made");
     }
     ProjectCardComponent.prototype.ngOnInit = function () {
         //  this.projectService.getProjects().then(projects =>{ this.projects = projects; });
     };
+    ProjectCardComponent.prototype.onSelect = function (project) {
+        this.selected.emit(project);
+    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', project_1.Project)
     ], ProjectCardComponent.prototype, "project", void 0);
+    __decorate([
+        core_1.Output(), 
+        __metadata('design:type', core_1.EventEmitter)
+    ], ProjectCardComponent.prototype, "selected", void 0);
     ProjectCardComponent = __decorate([
         core_1.Component({
             selector: 'project-card',
