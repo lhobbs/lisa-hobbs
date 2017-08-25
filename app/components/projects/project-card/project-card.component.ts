@@ -11,6 +11,7 @@ import { Project } from './../../../models/project';
 })
 export class ProjectCardComponent  { 
 @Input() project: Project;
+@Input() hideInfoBtn: boolean;
 @Output()
   selected:EventEmitter<string> = new EventEmitter();
 

@@ -1,0 +1,25 @@
+<div class="container-fluid card">
+    <div class="">
+        <div class="card-header">
+            <h4 class="card-title">{{job.company}}</h4>
+            <p>{{job.startDate}} - {{job.endDate}}</p>
+            <h5>{{job.position}}</h5>
+        </div>
+  <div class="card-body">
+      <div class="col-xs-12">
+        <h5 class="text-center list-header">Skills</h5>
+        <ul class="skills">
+            <li *ngFor="let skill of job.skills">{{skill}}</li>
+        </ul>
+      </div>
+      <div class="col-xs-12" *ngIf="job.achievements">
+        <h5 class="text-center list-header">Achievements</h5>
+        <div *ngIf="job.achievements">
+            <ul>
+                <li *ngFor="let achievement of job.achievements">{{achievement}}</li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+</div>

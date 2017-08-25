@@ -27,6 +27,10 @@ var ProjectCardComponent = (function () {
         __metadata('design:type', project_1.Project)
     ], ProjectCardComponent.prototype, "project", void 0);
     __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Boolean)
+    ], ProjectCardComponent.prototype, "hideInfoBtn", void 0);
+    __decorate([
         core_1.Output(), 
         __metadata('design:type', core_1.EventEmitter)
     ], ProjectCardComponent.prototype, "selected", void 0);

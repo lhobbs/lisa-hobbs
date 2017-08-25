@@ -1,0 +1,10 @@
+<div id="projects" *ngIf="projects">
+    <div class="section-header-2">
+        <h1>Things I've Made</h1>
+    </div>
+    <div class="container-fluid cards">
+        <div *ngFor="let project of projects">
+                <project-card [project]="project" [hideInfoBtn]="true"></project-card>
+        </div>
+    </div>
+</div>

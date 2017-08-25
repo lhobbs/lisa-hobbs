@@ -1,0 +1,13 @@
+<div id="workExperience">
+    <div class="section-header-2">
+        <h1>Places I've Worked</h1>
+    </div>
+    <div class="container-fluid cards">
+        <div *ngFor="let job of jobs">
+            <resume-card-mobile [job]="job"></resume-card-mobile>
+        </div>
+        <education-card></education-card>
+        <community-outreach-mobile></community-outreach-mobile>
+    </div>
+</div>     
+        
