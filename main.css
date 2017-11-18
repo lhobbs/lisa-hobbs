@@ -113,7 +113,7 @@ body
     opacity: 1;
 }
 #aboutMenu {
-    background: url("/images/oregoncoastT.jpg") center;   
+    background: url("/images/oregoncoastbw.jpg") center;   
 }
 #aboutMenu:hover {
     background: url("/images/oregoncoast.jpg") center;   
@@ -125,7 +125,7 @@ body
 }
 
 #projectsMenu {
-    background: url("/images/wpT.jpg") center;
+    background: url("/images/wpbw.jpg") center;
     height: 100%;
 }
 #projectsMenu:hover {
@@ -138,7 +138,7 @@ body
     color: #172E3C;
 }
 #resumeMenu {
-    background: url("/images/croatiaT.jpg") center;
+    background: url("/images/croatiabw.jpg") center;
     /*background-size: cover;*/
 }
 #resumeMenu:hover {
@@ -151,7 +151,7 @@ body
     padding-top: 20%;
 }
 #contactMenu {
-    background: url("/images/costaricaT.jpg") center;
+    background: url("/images/costaricabw.jpg") center;
 }
 #contactMenu:hover {
     background: url("/images/costarica.jpg") center;
